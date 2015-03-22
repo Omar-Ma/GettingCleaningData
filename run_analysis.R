@@ -54,3 +54,5 @@ for(i in 2:86)
 {
   names(data5)[i]<-feature$V2[i]
 }
+write.table(data5,)
+write.table(data5, "/Users/yujiema/Desktop/Coursera/Data Science Specializtion/02 Getting and Cleaning Data/GettingCleaningData/GettingCleaningData/data.txt", sep="\t",row.name=FALSE)
